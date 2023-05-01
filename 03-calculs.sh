@@ -6,9 +6,10 @@ echo 10+10
 echo $((10+10))
 
 #Si on veut garder une variable/valeur
-valeur-$((10+10))
+valeur=$((10+10))
 echo $valeur
 
+# read demande à l'usager
 read -p "nb 1: " nb1
 read -p "nb 2: " nb2
 
